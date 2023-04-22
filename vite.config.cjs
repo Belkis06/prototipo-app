@@ -11,7 +11,14 @@ export default defineConfig({
     assetsDir: "assets",
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html')
+        main: resolve(__dirname, 'index.html'),
+        detalles: resolve(__dirname, 'index.html'),
+        detalles_informacion: resolve(__dirname, 'index.html'),
+        locations: resolve(__dirname, 'locations.html'),
+        timeline: resolve(__dirname, 'timeline.html'),
+        tickets: resolve (__dirname, 'tickets.html'),
+        perfil: resolve (__dirname, 'perfil.html'),
+
       }
     }
   },
