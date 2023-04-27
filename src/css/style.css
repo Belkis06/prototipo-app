@@ -47,7 +47,7 @@ header {
 }
 
 .indicadores {
-    @apply grid grid-cols-3 gap-20 text-center leading-10 mb-4 mx-auto max-w-lg;
+    @apply grid grid-cols-3 gap-10 text-center leading-8 mb-4 mx-auto max-w-lg;
 }
 
 .indicador {
@@ -69,11 +69,11 @@ header {
 }
 
 .info {
-    @apply grid grid-cols-3 gap-20 text-center leading-3 mb-8 mx-auto max-w-lg;
+    @apply grid grid-cols-3 gap-10 text-center leading-3 mb-8 mx-auto max-w-lg;
 }
 
 .det {
-    @apply grid grid-cols-1 leading-6 mb-4 mx-auto max-w-lg;
+    @apply grid grid-cols-1 text-left leading-6 mt-5 mb-4 mx-auto max-w-lg;
 }
 
 .tik {
@@ -128,7 +128,7 @@ header {
 }
 
 .org2 {
-    @apply grid grid-cols-1 leading-6 -ml-72 -my-2;
+    @apply grid grid-cols-1 leading-6 -ml-56 -my-1 mx-auto max-w-lg;
 }
 
 .btnS {
@@ -140,7 +140,7 @@ header {
 }
 
 .opciones {
-    @apply grid grid-cols-5 text-center leading-3 mt-10 mx-auto max-w-xl;
+    @apply grid grid-cols-5 gap-4 text-center leading-3 mt-10 mx-auto max-w-lg;
     font-style: italic;
 }
 
@@ -164,11 +164,11 @@ header {
 /* Timeline */
 
 .headT {
-    @apply grid grid-cols-1 text-left leading-3 mt-8 mx-auto max-w-lg;
+    @apply grid grid-cols-1 text-center leading-3 mt-4 mb-4 mx-auto max-w-lg;
 }
 
 .lineas {
-    @apply grid grid-cols-2 text-left mt-4 mx-auto max-w-lg;
+    @apply grid grid-cols-2 text-left mx-auto max-w-lg;
 }
 
 .lineaT{
@@ -188,7 +188,7 @@ header {
 }
 
 .presentaciones {
-    @apply mb-8 cursor-pointer w-96 h-48 bg-gray-400 text-gray-500 rounded-md -ml-32;
+    @apply mb-8 cursor-pointer w-80 h-48 bg-gray-400 text-gray-500 rounded-md -ml-32 mx-auto max-w-lg;
 }
 
 .pre1 {
